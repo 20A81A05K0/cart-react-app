@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header{
+  color:white;
+  background-color: black;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.cart-icon .counter{
+  height: 18px;
+  width:18px;
+  background-color: blue;
+  border-radius: 50%;
+  position: relative;
+  right: 7px;
+  top:-6px;
+}
+.cart-icon{
+  display: flex;
+}
+.icon{
+  
+  font-size: 22px;
+ 
+}
+img{
+  height:150px;
+}
+.cart-wrapper{
+  display: inline-flex;
+  width:320px;
+  box-shadow: 0px 0px 7px black;
+  border-radius: 5px;
+}
+.image-wrappper{
+  width:150px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+  justify-self: center;
+  border-right:1px solid wheat;
+}
+.content{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.price
+{
+  margin-bottom: auto;
+}
+.content button{
+  background-color: black;
+  color:white;
+  border-radius: 3px;
+}
+.quantity{
+  display: flex;
+  align-self: flex-end;
+  border-radius: 3px;
+  border:1px solid grey;
+}
+.quantity div{
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quantity>div:first-child,.quantity>button{
+  background-color: rgb(2, 55, 102);
+  color: white;
+  border-radius: 0;
+}
+.quantity>button{
+  color: white;
+
+  background-color: rgb(27, 27, 28);
+  border-radius: 0%;
+}
+.quantity>button:disabled{
+  opacity: 0.7;
+}
+main{
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 80vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap:50px;
+  
+}
+.total{
+  background-color: black;
+  color: white;
+  text-align: end;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding-right: 30px;
+  box-sizing: border-box;
+  
+}
+
+
+
+
